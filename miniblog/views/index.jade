@@ -1,0 +1,16 @@
+extends layout
+block content
+  h1 MiniBlog
+  form(action="/", method="post")
+    fieldset
+      legend Novo post
+      label Título
+      input(type="text" name="post[title]")
+      label Conteúdo
+      textarea(rows="6" name="post[content]")
+      button(type="submit") Cadastrar
+  br
+  each post in posts
+    h2 #{post.title}
+    p #{post.content}
+    hr

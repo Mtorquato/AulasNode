@@ -1,0 +1,11 @@
+{
+		"name": "AulasNode",
+		"description": "Aulas de Nodejs",
+		"author": "Michel <micheltorquato@gmail.com>",
+		"version": "1.0.0",
+		"private": true,
+		"dependencies": {
+			"mongoose": "*",
+
+		}
+}
